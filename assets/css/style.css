@@ -60,13 +60,34 @@ body{
     padding: 120px 0px;
 }
 
+.properties .boxes{
+    margin-top: 50px;
+}
+
+.properties-section-lable{
+    color: #B7834D;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.properties-section-lable:after{
+    content: '';
+    width: 50px;
+    border-bottom: solid 1px #B7834D;
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    z-index: 1;
+}
+
 .properties .card-title{
     font-size: 18px;
     font-weight: bold;
 }
 
 .properties #price{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #3EBB40;
 }
@@ -85,7 +106,7 @@ body{
 }
 
 .properties .payments-details h5, .properties .payments-details p{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .properties .payments-details h5{
@@ -105,6 +126,23 @@ body{
 /* contact us section style  */
 .contact-us{
     padding: 50px 0px;
+}
+
+.contact-section-lable{
+    color: #B7834D;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contact-section-lable:after{
+    content: '';
+    width: 50px;
+    border-bottom: solid 1px #B7834D;
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    z-index: 1;
 }
 
 .contact-us label{
@@ -135,21 +173,6 @@ body{
     padding: 0px 25px;
 }
 
-.section-lable{
-    color: #B7834D;
-    position: relative;
-    font-size: 18px;
-}
-
-.section-lable:after{
-    content: '';
-    width: 40px;
-    border-bottom: solid 1px #B7834D;
-    position: absolute;
-    left: 115px;
-    top: 50%;
-    z-index: 1;
-}
 
 .section-title{
     font-size: 48px;
@@ -173,6 +196,7 @@ body{
 
 .card{
     border: 0px;
+    border-radius: 15px;
 }
 
 .shadow-sm{
