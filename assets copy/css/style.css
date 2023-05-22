@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "gotham";
+    src: url("../fonts/gotham_book_regular.otf");
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'gotham', sans-serif;
+}
+
+/* navbar section style */
+.nav-item{
+    padding: 10px;
+}
+
+.nav-link{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav-link , .nav-link:hover{
+    color: rgb(19, 18, 18)!important;
+}
+
+/* jumbotron section style */
+.jumbotron h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron h2{
+    font-size: 48px;
+}
+
+.jumbotron p{
+    font-size: 18px;
+    margin: 48px 0px;
+}
+
+.jumbotron-details{
+    margin: 30px 0px;
+}
+
+.jumbotron-details p{
+    max-width: 600px;
+    line-height: 30px;
+}
+
+.jumbotron-images{
+    margin: -70px -60px 0px 0px;
+}
+
+.jumbotron-images img{
+    padding: 5px;
+}
+
+
+/* properties section style */
+.properties{
+    background-color: #F3F4F9;
+    margin-top: -100px;
+    padding: 120px 0px;
+}
+
+.properties .boxes{
+    margin-top: 50px;
+}
+
+.properties-section-lable{
+    color: #B7834D;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.properties-section-lable:after{
+    content: '';
+    width: 50px;
+    border-bottom: solid 1px #B7834D;
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    z-index: 1;
+}
+
+.properties .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.properties #price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3EBB40;
+}
+
+.properties #plan{
+    font-size: 16px;
+}
+
+.properties .payments-details{
+    background-color: #F3F4F9;
+    border-radius: 15px;
+}
+
+.properties .payments-details div{
+    padding: 10px 20px 0px 20px;
+}
+
+.properties .payments-details h5, .properties .payments-details p{
+    font-size: 12px;
+}
+
+.properties .payments-details h5{
+    font-weight: bold;
+}
+
+.properties .more-btn{
+    margin-top: 46px;
+}
+
+.properties #more-btn{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(31, 30, 30);;
+}
+
+/* contact us section style  */
+.contact-us{
+    padding: 50px 0px;
+}
+
+.contact-section-lable{
+    color: #B7834D;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contact-section-lable:after{
+    content: '';
+    width: 50px;
+    border-bottom: solid 1px #B7834D;
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    z-index: 1;
+}
+
+.contact-us label{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 18px;
+}
+
+.contact-us input , .contact-us select, .contact-us textarea{
+    background-color: #F3F4F9;
+    padding: 24px;
+    border: 0px;
+}
+
+.contact-us .input-group-prepend{
+    background-color: #F3F4F9;
+    border: 0px;
+    padding-top: 8px;
+}
+
+.contact-us .contact-btn{
+    margin-top: 24px;
+    width: 100%;
+}
+
+/* general style */
+.section-padding{
+    padding: 0px 25px;
+}
+
+
+.section-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section-bio{
+    font-size: 16px;
+}
+
+.primary-color{
+    color: #B7834D!important;
+}
+
+.arena-btn{
+    background-color: #B7834D!important;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card{
+    border: 0px;
+    border-radius: 15px;
+}
+
+.shadow-sm{
+    box-shadow: 0 .350rem .75rem rgba(0,0,0,.075)!important;
+}
+
+.section-padding{
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    margin-right: auto;
+    margin-left: auto;
+}

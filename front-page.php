@@ -53,7 +53,8 @@ get_header(); ?>
           <div class="col-md-7 pb-2 pb-md-0 mb-4 mb-md-0">
             <?php 
               $sticyHomePosts = new WP_Query(array(
-                'posts_per_page' => 2
+                'post_type' => 'property'
+                'posts_per_page' => 3
               ));
 
               while ($sticyHomePosts->have_posts()) {
@@ -207,7 +208,7 @@ get_header(); ?>
                       هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
                     </p>
                   </div>
-                </div>
+                </div> 
               </article>
               <!-- Item-->
               <article class="swiper-slide w-sm-auto h-auto">

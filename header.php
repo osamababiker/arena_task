@@ -6,32 +6,41 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>> 
-    <!-- Page loading spinner-->
-    <div class="page-loading active">
-      <div class="page-loading-inner">
-        <div class="page-spinner"></div><span>جاري التحميل ...</span>
-      </div>
-    </div>
     <!-- Page wrapper-->
     <main class="page-wrapper">
-      <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
-      <header class="navbar navbar-expand-lg bg-light rounded-3 px-3">
-        <a class="navbar-brand" href="#">
-          <img class="border rounded-circle" src="<?php echo get_theme_file_uri('/assets/img/logo.jpeg') ?>" width="40" alt="اسامة بابكر"> 
-          <span class="h6 pt-3 px-3">اسامة محمد بابكر</span> 
-        </a>
-        <div class="me-auto d-flex">
-          <a class="d-flex align-items-center text-decoration-none" href="mailto:hello@osamababiker.com">
-            <i class="ai-messages fs-3"></i>
-            <div class="text-nowrap ps-2 d-none d-lg-block px-4">
-              <h6 class="fs-sm lh-1 mb-0">تواصل معي</h6>
-              <span class="text-body fs-xs">hello@osamababiker.com</span>
-            </div>
-          </a>
-          <div class="form-check form-switch mode-switch" id="mode-switch" data-bs-toggle="mode">
-            <input class="form-check-input" type="checkbox" id="theme-mode">
-            <label class="form-check-label" for="theme-mode"><i class="ai-sun fs-lg"></i></label>
-            <label class="form-check-label" for="theme-mode"><i class="ai-moon fs-lg"></i></label>
-          </div>
-        </div>
+    <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
+      <!-- navbar section -->
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light  shadow-sm">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="<?php echo get_theme_file_uri('assets/img/logo.png') ?>" alt="" class="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav m-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Comparison</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Bond</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Testimonials</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                          </li>
+                      </ul>
+                      <button class="btn arena-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg> +971 12 345 6789
+                      </button>
+                  </div>
+              </div>
+          </nav>
       </header>
+
+
