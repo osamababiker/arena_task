@@ -8,6 +8,7 @@ function theme_assets() {
   wp_enqueue_style('gotham-font', get_theme_file_uri('/assets/fonts/GothamBook.ttf'));
   wp_enqueue_style('bootstrap.css', get_theme_file_uri('/assets/vendor/bootstrap/dist/css/bootstrap.min.css'));
   wp_enqueue_style('style', get_theme_file_uri('/assets/css/style.css'));
+  wp_enqueue_style('responsive', get_theme_file_uri('/assets/css/responsive.css'));
 }
 add_action('wp_enqueue_scripts', 'theme_assets');
 
