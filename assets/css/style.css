@@ -1,8 +1,8 @@
 @font-face {
     font-family: "gotham";
-    src: url("../fonts/gotham_book_regular.otf");
+    src: url("../fonts/GothamBook.ttf");
 }
-
+ 
 html,body{
     overflow-x: hidden;
 }
@@ -86,9 +86,10 @@ body{
     z-index: 1;
 }
 
-.properties .card-title{
+.properties .card-title a{
     font-size: 18px;
     font-weight: bold;
+    color: inherit!important;
 }
 
 .properties #price{
@@ -197,6 +198,12 @@ body{
     padding: 10px 15px;
     color: #fff;
     border-radius: 10px;
+}
+
+.arena-btn:hover{
+    background-color: #B7834D!important;
+    color: #fff;
+    text-decoration: none;
 }
 
 .card{
