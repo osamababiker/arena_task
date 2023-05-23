@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<div class="col-md-4  animate__animated animate__backInDown">
     <div class="card shadow-sm my-3">
     <?php the_post_thumbnail( 'small', array('class' => 'card-img-top') ); ?>
         <div class="card-body">

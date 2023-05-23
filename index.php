@@ -7,7 +7,7 @@ global $wp_query;
 <!-- home jumbotron section -->
 <section class="jumbotron bg-white">
   <div class="container-fluid d-md-flex justify-content-between ">
-      <div class="jumbotron-details">
+      <div class="jumbotron-details animate__animated animate__bounce">
         <?php the_field('title'); ?>
         <?php the_field('sub_title'); ?> 
         <p class="">
@@ -24,7 +24,7 @@ global $wp_query;
         <?php endif; ?>
       </div>
       <div class="jumbotron-images d-flex">
-          <div class="left-images">
+          <div class="left-images animate__animated animate__backInRight">
             <?php
                 $left_image_top = get_field('left_image_top');
                 $left_image_bottom = get_field('left_image_bottom');
@@ -36,7 +36,7 @@ global $wp_query;
                     <img class="d-block img-fluid" src="<?php echo esc_url($left_image_bottom); ?>" alt="" />
             <?php endif; ?>
           </div>
-          <div class="right-images">
+          <div class="right-images animate__animated animate__backInRight">
             <?php
                 $right_image_top = get_field('right_image_top');
                 $right_image_bottom = get_field('right_image_bottom');

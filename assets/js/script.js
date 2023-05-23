@@ -39,7 +39,6 @@ jQuery(document).ready(function($) {
     });
 
 
-
     /**
      * Validate the contact form displayed with the [contact-form] shortcode.
      */

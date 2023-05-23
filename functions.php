@@ -3,10 +3,10 @@
 
 function theme_assets() {
   wp_enqueue_script('bootstrap.js', get_theme_file_uri('/assets/vendor/bootstrap/dist/js/bootstrap.min.js'), array('jquery'), '3.3.1', true);
-  wp_enqueue_script('smooth-scroll', get_theme_file_uri('/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js'), array('jquery'), '1.0', true);
   wp_enqueue_script('script.js', get_theme_file_uri('/assets/js/script.js'), array('jquery'), '3.3.1', true);
   wp_enqueue_style('gotham-font', get_theme_file_uri('/assets/fonts/GothamBook.ttf'));
   wp_enqueue_style('bootstrap.css', get_theme_file_uri('/assets/vendor/bootstrap/dist/css/bootstrap.min.css'));
+  wp_enqueue_style('animate', get_theme_file_uri('/assets/vendor/animate/animate.min.css'));
   wp_enqueue_style('style', get_theme_file_uri('/assets/css/style.css'));
   wp_enqueue_style('responsive', get_theme_file_uri('/assets/css/responsive.css'));
 }
